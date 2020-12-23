@@ -96,12 +96,12 @@ to{
 
 
 
-   #Snow1,#Snow2,#Snow3
+   .snowAll
   {
     opacity: 0;
   } 
 
-   #Snow1,#Snow2,#Snow3
+   .snowAll
  {
      animation: fillS 0.4s  forwards ;
      
