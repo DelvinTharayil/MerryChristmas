@@ -1,0 +1,368 @@
+html, body {
+
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+
+
+
+
+  body {
+   
+  background-color: rgba(191, 28, 44, 1)
+ 
+}
+
+
+
+
+ @keyframes up{
+
+  to{
+    transform:translateY(-300px);
+}
+}
+#Evpage1
+{animation: up  0.5s  forwards ;
+  
+} 
+
+
+
+#Evpageup
+{animation: letterup  0.4s 2s forwards ;
+  
+} 
+@keyframes letterup{
+  
+  to{
+    transform:translateY(-1300px);
+  }
+}
+
+
+
+
+#forestbg{
+
+opacity: 0;
+}
+ #forestbg{
+
+  animation: fadoutletter 0.4s forwards ;
+} 
+@keyframes fadoutletter{
+to{
+  opacity: 1;
+   
+}
+}  
+
+
+
+#bgletter{
+
+  transform: translateY(-650px);
+}
+#bgletter{
+
+  animation: letteropen 0.4s 2s forwards ;
+} 
+@keyframes letteropen{
+to{
+  transform: translateY(1px);
+  /* opacity: 1; */
+}
+} 
+
+
+
+
+@keyframes down{
+    
+    to{
+      opacity: 0;
+      transform:translateY(1000px);
+    }
+  }
+  #EvbackB,#Evopen,#EvbackT,#Evline
+  {
+    animation: down  0.5s  forwards
+  }
+
+
+
+
+   #Snow1,#Snow2,#Snow3
+  {
+    opacity: 0;
+  } 
+
+   #Snow1,#Snow2,#Snow3
+ {
+     animation: fillS 0.4s  forwards ;
+     
+   } 
+@keyframes fillS{
+   to{
+     opacity: 1;
+      
+   }
+} 
+
+.pagefadeout
+{
+ opacity: 0;
+}
+
+.pagefadeout
+{
+  animation: fillM 1.4s 0.6s forwards ;
+  
+}
+
+
+@keyframes fillM{
+to{
+  opacity: 1;
+   
+}
+} 
+
+
+ 
+ #Evstamp,#clicktext1
+ {
+   animation: fillHI 0.1s  forwards ;
+   
+ }
+ 
+ 
+ @keyframes fillHI{
+ to{
+   opacity: 0;
+    
+ }
+ } 
+ #Hbell
+ {
+   animation: sideB  0.5s 0.7s reverse ;
+   transform-box: fill-box;
+  
+   } 
+
+ @keyframes sideB{
+
+  from{
+    transform:rotate(0deg)
+}
+to{
+  transform: rotate(-70deg);
+}
+}
+
+#Hstick
+ {
+   animation: sideS  0.5s 0.7s reverse ;
+   transform-box: fill-box;
+  
+   } 
+
+ @keyframes sideS{
+
+  from{
+    transform:rotate(0deg)
+}
+to{
+  transform: rotate(-50deg);
+}
+}
+
+#Hsock
+ {
+   animation: sideSO  0.5s 0.7s reverse ;
+   transform-box: fill-box;
+  
+   } 
+
+ @keyframes sideSO{
+
+  from{
+    transform:rotate(0deg)
+}
+to{
+  transform: rotate(-90deg);
+}
+}
+
+#Htree
+{
+  animation: sideT  0.5s 0.7s linear  ; 
+  transform-box: fill-box;
+   
+   
+  } 
+  
+  @keyframes sideT{
+    
+    from{
+      transform:rotateZ(90deg)
+    }
+    to{
+      transform: rotateZ(0deg);
+}
+}
+#Hhat
+ {
+   animation: sideH  0.5s 0.7s linear ;
+   transform-box: fill-box;
+  
+   } 
+
+ @keyframes sideH{
+
+  from{
+    transform:rotate(70deg)
+}
+to{
+  transform: rotate(0deg);
+}
+}
+
+#Hball
+ {
+   animation: sideBA  0.5s 0.7s linear ;
+   transform-box: fill-box;
+  
+   } 
+
+ @keyframes sideBA{
+
+  from{
+    transform:rotate(50deg)
+}
+to{
+  transform: rotate(0deg);
+}
+}
+
+#Hgift
+ {
+   animation: sideG  0.6s 0.7s reverse ;
+   } 
+ @keyframes sideG{
+
+to{
+  transform: translateY(-200px);
+}
+} 
+
+
+
+#vector
+ {
+
+  animation: colorC 0.7s infinite linear;    
+}
+
+@keyframes colorC {
+  30% {
+    stroke: rgb(3, 141, 233);
+  }
+  50% {
+    stroke: rgb(37, 37, 37);
+  }
+}
+
+
+
+
+
+
+ /* #d{
+  1290px
+  background-color: white
+}  */
+
+
+#content
+ {
+  opacity: 0;
+} 
+
+#content
+{
+   animation: fadingthing 0.4s 1s forwards ;
+   
+ } 
+@keyframes fadingthing{
+ to{
+   opacity: 1;
+    
+ }
+} 
+
+#Reindeer,#Sman,#fadethings
+ {
+  opacity: 0;
+} 
+
+#Reindeer,#Sman,#fadethings
+{
+   animation: fadeobj 1s 3.5s forwards ;
+   
+ } 
+@keyframes fadeobj{
+ to{
+   opacity: 1;
+    
+ }
+} 
+
+#christmastextL{
+   transform: translateY(-1000px);
+   animation: textdownL 0.2s 2.8s forwards;
+}
+
+@keyframes textdownL{
+  
+  to{
+    transform: translateY(0px);
+  }
+}
+
+#wishes{
+  transform: translateX(1000px);
+  animation: wishsideL 0.5s 3s forwards;
+}
+
+@keyframes wishsideL{
+ 
+ to{
+   transform: translateX(0px);
+ }
+}
+
+
+ #christmastext{
+  
+  animation: cmtextp 0.2s 1.8s forwards;
+}
+
+@keyframes cmtextp{
+ 
+ to{
+  opacity: 0;
+   transform: translateY(400px);
+ }
+} 
+/* #EvbackB,#Evopen,#EvbackT,#Evline,#Evpage1
+
+  {
+    opacity: 0;
+  } */
+
+  
