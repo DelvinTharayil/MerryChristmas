@@ -1,6 +1,6 @@
 html, body {
 
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   margin: 0;
   border: 0;
@@ -11,7 +11,6 @@ html, body {
 
 
   body {
-   
   background-color: rgba(191, 28, 44, 1)
  
 }
@@ -282,11 +281,6 @@ to{
 
 
 
- /* #d{
-  1290px
-  background-color: white
-}  */
-
 
 #content
  {
@@ -336,12 +330,14 @@ to{
 
 #wishes{
   transform: translateX(1000px);
+  opacity: 0;
   animation: wishsideL 0.5s 3s forwards;
 }
 
 @keyframes wishsideL{
  
  to{
+  opacity: 1;
    transform: translateX(0px);
  }
 }
@@ -359,10 +355,19 @@ to{
    transform: translateY(400px);
  }
 } 
-/* #EvbackB,#Evopen,#EvbackT,#Evline,#Evpage1
 
-  {
-    opacity: 0;
-  } */
 
+  @media only screen and (min-width: 1100px) {
+    body{
+
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      align-content: center;
+    }
+    svg {
+      width:100vw; 
+      height:100vh; 
+    }
+  }
   
