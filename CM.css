@@ -45,12 +45,9 @@ html, body {
 
 
 
-#forestbg{
 
-opacity: 0;
-}
  #forestbg{
-
+  opacity: 0;
   animation: fadoutletter 0.4s forwards ;
 } 
 @keyframes fadoutletter{
@@ -63,17 +60,12 @@ to{
 
 
 #bgletter{
-
   transform: translateY(-650px);
-}
-#bgletter{
-
   animation: letteropen 0.4s 2s forwards ;
 } 
 @keyframes letteropen{
 to{
   transform: translateY(1px);
-  /* opacity: 1; */
 }
 } 
 
@@ -96,11 +88,6 @@ to{
 
 
    .snowAll
-  {
-    opacity: 0;
-  } 
-
-   .snowAll
  {
      animation: fillS 0.4s  forwards ;
      
@@ -112,10 +99,6 @@ to{
    }
 } 
 
-.pagefadeout
-{
- opacity: 0;
-}
 
 .pagefadeout
 {
@@ -280,15 +263,9 @@ to{
 
 
 
-
-
-#content
- {
-  opacity: 0;
-} 
-
 #content
 {
+  opacity: 0;
    animation: fadingthing 0.4s 1s forwards ;
    
  } 
@@ -299,13 +276,10 @@ to{
  }
 } 
 
-#Reindeer,#Sman,#fadethings
- {
-  opacity: 0;
-} 
 
 #Reindeer,#Sman,#fadethings
 {
+  opacity: 0;
    animation: fadeobj 1s 3.5s forwards ;
    
  } 
@@ -330,7 +304,7 @@ to{
 
 #wishes{
   transform: translateX(1000px);
-  opacity: 0;
+
   animation: wishsideL 0.5s 3s forwards;
 }
 
